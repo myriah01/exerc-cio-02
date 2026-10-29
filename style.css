@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgb(19, 123, 214);
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards{
+    background-color: rgb(60, 159, 216);
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: rgb(59, 97, 179);
+    color: black;
+    height: 250px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+}
+@media (max-width:600px)
+{
+.card { background-color: #1915d8;}
+}
+
+
+
+
+    
